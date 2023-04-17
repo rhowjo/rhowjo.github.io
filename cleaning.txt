@@ -1,0 +1,12 @@
+import bs4
+import requests
+import json
+
+page = requests.get('https://nationalcareers.service.gov.uk/job-profiles/data-scientist')
+soup = BeautifulSoup(page.text, 'html.parser')
+
+data_scientist = soup.body.find_all(string=re.compile('[dD]ata [sS]cientist'))
+
+data_scientist = list(data_scientist)
+
+output = json.dumps(data_scientist)
