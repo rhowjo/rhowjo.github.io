@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Collaborative Discussion 1 - Summary</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Units 1 - 12 Artefacts</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="collab1.html" class="active">Units 1 - 12 Artefacts</a></li>
+					</ul>
+				</nav>
+			</header>
+		
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#header">Return to top</a></li>
+							<li><a href="#Unit 1">Unit 1 - Introduction to Big Data Technologies and Data Management</a></li>
+							<li><a href="#Unit 2">Unit 2 - Introduction to Data Types and Formats</a></li>
+							<li><a href="#Unit 3">Unit 3 - Data Collection and Storage</a></li>
+							<li><a href="#Unit 4">Unit 4 - Data Cleaning and Transformation</a></li>
+							<li><a href="#Unit 5">Unit 5 - Data Cleaning and Automating Data Collections</a></li>
+							<li><a href="#Unit 6">Unit 6 - Database Design and Normalisation</a></li>
+							<li><a href="#Unit 7">Unit 7 - Constructing Normalised Tables and Database Build</a></li>
+							<li><a href="#Unit 8">Unit 8 - Compliance and Regulatory Framework for Managing Data</a></li>	
+							<li><a href="#Unit 9">Unit 9 - Database Management Systems (DBMS) and Models</a></li>
+							<li><a href="#Unit 10">Unit 10 - More on APIs (Application Programming Interfaces) for Data Parsing</a></li>
+							<li><a href="#Unit 11">Unit 11 - DBMS Transaction and Recovery</a></li>
+							<li><a href="#Unit 12">Unit 12 - Future of Big Data Analytics</a></li>	
+							
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="Unit 1" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 1 - Introduction to Big Data Technologies and Data Management</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>In this unit, I learned what the general idea behind big data is.</p>
+							<p>Big data is defined by De Mauro et al., 2015 as:</p>
+							<p><i>“Big Data represents the Information assets characterized by such a High Volume, Velocity and Variety to require specific Technology and Analytical Methods for its transformation into Value”.</i></p>
+							<p>This mentioned 3 of the 4 Vs of Big Data: volume, variety (refers to the number of different data types), and velocity (how efficiently data is transmitted).</p>
+							<p>Veracity is the fourth V and refers to the data quality and availability (The four V's of big data, 2023).</p>
+							<p>Understanding what big data is is vital to businesses as it denotes a situation where data sets have grown to the extent that conventional technologies can no longer handle the enormity of the data as well as its scalability and continued growth. This makes the data difficult to manage effectively with little chance of extracting value. It is important then to know how to handle big data in terms of its acquisition, storage, and analytics of the data (Ohlhorst, 2012).</p>
+							<p>Overall, this unit helped me to understand the challenges and depth of concepts of big data.</p>
+							
+							<h2>Bibliography</h2>
+							<p>
+								<br>De Mauro, A., Greco, M. and Grimaldi, M. (2015) “What is Big Data? A consensual definition and a review of key research topics,” AIP Conference Proceedings [Preprint]. Available at: https://doi.org/10.1063/1.4907823.</br>
+								<br>Ohlhorst, F.J. (2012) Big Data Analytics: Turning Big Data into Big Money. Wiley</br>
+								<br>The four V's of big data (2023) OpenSistemas. Available at: https://opensistemas.com/en/the-four-vs-of-big-data/ (Accessed: April 12, 2023).</br>
+							</p>
+						</div>
+					</section>
+						<section id="Unit 2" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 2 - Introduction to Data Types and Formats</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>This unit provided me an overview of the various data types such as (but not limited to): characters, strings, lists, float, integer, dictionaries, Boolean, and variables. </p>
+							<p>Additionally, this unit covered the different data formats: structured data (clearly defined , semi-structured data (textual data files with an apparent pattern such as emails and XML files), quasi-structured data (textual data with erratic formats that can be reformatted via software tools), and unstructured data (information that does not have a basic text format such as video and audio files) – Wietzal, 2022 and Structured vs unstructured data vs semi-structured data, 2022.</p>
+							
+							<h2>Bibliography</h2>
+							<p>
+								<br>Kazil, J, & Jarmul, K 2016, Data Wrangling with Python : Tips and Tools to Make Your Life Easier, O'Reilly Media, Incorporated, Sebastopol. Available from: ProQuest Ebook Central. [16 April 2023].</br>
+								<br>Structured vs unstructured data vs semi-structured data (2022) Accern. Available at: https://accern.com/blog/structured-vs-semi-structured-vs-unstructured-data/ (Accessed: April 12, 2023). </br>
+								<br>Weitzel, A. (2022) The difference between structured and unstructured data, CourseKey. Available at: https://coursekey.com/blog/structured-vs-unstructured-data/ (Accessed: April 12, 2023). </br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 3" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 3 - Data Collection and Storage</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>Here is a snippet of Python code that was used for the web scraping task: <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/f2d46afb901f8486aa2d75b911e78dc394533412/cleaning.txt">Here.</a> </li></p>
+							<p>Additionally, I learnt about the multitude of sources where data can be collected from like NGOs, education, and governments. As well as this, it is necessary to fact check and verify the sources to ensure that the data is valid (Kazil & Jarmul, 2016).</p>
+							
+							<h2>Bibliography</h2>
+							<p>
+								<br>Kazil, J., & Jarmul, K. (2016) Data Wrangling with Python. O'Reilly Media, Inc. Available via the Vitalsource Bookshelf. [Accessed 12 April 2023]. </br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 4" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 4 - Data Cleaning and Transformation</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>For this unit, I went through the process of data cleaning which is the quantitatively checking to ensure the data contains information that is accurate. (Huxley et al., 2020).This process follows gathering the raw data.  This helps ensure that the data is from inaccuracies and duplicates and removes or modifies incomplete, incorrectly formatted or corrupted data (Fitzgerald, 2022).</p>
+							<h2>Bibliography</h2>
+							<p>
+								<br>Ganti, V. and Sarma, A. (2013) Data Cleaning : A Practical Perspective (Synthesis Lectures on Data Management). 1st Ed. Morgan & Claypool Publishers. Huxley, K., Atkinson, P,. Delamont, S., Cermut,A., Sakshaug, J. &. Williams, R. (2020) Data cleaning. Sage Foundation. Available from: https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data</br>
+								<br>Fitzgerald, A. (2022) Data cleansing: What it is, why it matters & how to do it, HubSpot Blog. HubSpot. Available at: https://blog.hubspot.com/website/data-cleansing (Accessed: April 12, 2023). </br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 5" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 5 - Data Cleaning and Automating Data Collections</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>This continued from Unit 4 data cleaning and looked at utilising python and automation methods for the cleaning process. One such way of cleaning is replacing headers with more user friendly and then header matching to ensure that all columns have been captured.</p>
+							<p>Additionally, in the exercise I changed formats, removed spaces, and removing null or na values.</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 6" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 6 - Database Design and Normalisation</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>I learnt about database design in terms of normalisation which is an extension of data cleaning. However, in this case it means looking at statistics such as standard deviation to check for patterns and outliers, as well as checking the range.</p>
+							<p>Additionally, primary keys (unique identifiers) are columns for a unique record within a table like an order number (Database key terms, explained and (What is primary and foreign keys in database (purpose and use), 2023)</p>
+							<p>The first team project was submitted during this unit.</p>
+							<h2>Bibliography</h2>
+							<p>
+								<br>Database key terms, explained (no date) KDnuggets. Available at: https://www.kdnuggets.com/2016/07/database-key-terms-explained.html (Accessed: April 17, 2023).</br>
+								<br>What is primary and foreign keys in database (purpose and use) (2023) Web Hosting Blog from eUKhost. Available at: https://www.eukhost.com/blog/webhosting/what-the-use-of-primary-foreign-keys-in-database/ (Accessed: April 12, 2023).</br>
+
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 7" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 7 - Constructing Normalised Tables and Database Build</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>This unit continues on from until; I learnt about atomic data for NF1, and the process from getting to NF2 and NF3. This was then put into practice in this units exercise for student data.</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 8" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 8 - Compliance and Regulatory Framework for Managing Data</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>This unit formed part of my biggest contribution to the final group project. It covered the compliance and regulatory frameworks for managing data. This includes regulations (such as GDPR (Regulation (EU) 2016/679 (General Data Protection Regulation), 2016)) and standards (such as ISO27002). These essentially form a basis that organisation should follow for compliance (and by being compliant, increase chances to be more secure) (Kwon & Johnson, 2011).</p>
+							<h2>Bibliography</h2>
+							<p>
+								<br>Kwon, J. and Johnson, E. (2011) “The Impact of Security Practices on Regulatory Compliance and Security Performance,” International Conference on Information Systems [Preprint].</br>
+								<br>‘Regulation (EU) 2016/679 of the European Parliament and the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and the on the free movement of such data, and repealing Directive 95/46/EC’ (2016), Official Journal of the European Union L 119, pp. 1-88.</br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 9" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 9 - Database Management Systems (DBMS) and Models</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>DBMS is software used for creating and managing databases. It allows users to be able to update data, delete it, create it etc. Database management systems such as MySQL and Oracle DBMS for structured relational data make data organised and accessible (Mullins, 2022).</p>							
+							<h2>Bibliography</h2>
+							<p>
+								<br>Mullins, C.S. (2022) Database management system (DBMS), Data Management. TechTarget. Available at: https://www.techtarget.com/searchdatamanagement/definition/database-management-system (Accessed: April 12, 2023). </br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 10" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 10 - More on APIs (Application Programming Interfaces) for Data Parsing</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>In this unit I worked in our team to produce a document on API security requirements. See here <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/f2d46afb901f8486aa2d75b911e78dc394533412/api_security_brief%20(1).pdf">Here</a></p>
+							<p>I learned more about APIs (application programming interface) which essentially enables two programs to communicate (Lutkevich & Nolle, 2022). A application such as Facebook has a marketing API the users can connect with their application using the Facebook Marketing API. This enables access to data upon request (Marketing API).</p>
+							<h2>Bibliography</h2>
+							<p>
+								<br>Lutkevich, B. and Nolle, T. (2022) What is an API (application programming interface)?, App Architecture. TechTarget. Available at: https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API (Accessed: April 12, 2023).</br>
+								<br>Marketing API (no date) Meta Marketing API - Documentation - Meta for Developers. Available at: https://developers.facebook.com/docs/marketing-apis/ (Accessed: April 12, 2023). </br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 11" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 11 - DBMS Transaction and Recovery</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>In this unit I learned about various backup strategies. One such strategy is the Grandfather-Father-Son (GFS) backup strategy which is a backup rotation scheme. It consists of three or more backup cycles (daily, weekly, and monthly) allowing for independent retention policies for all (K, 2017).</p>
+							<p>There are three tiers of backup within this strategy: the grandfather which is a full machine backup (usually offsite), the father which is another full backup to a local device, and the son is a regular incremental backup (Northcott, 2021).</p>
+							<h2>Bibliography</h2>
+							<p>
+								<br>K, A. (2017) Sneak Peek of grandfather-father-son backup in MSP360 backup, MSP360 Blog. Available at: https://www.msp360.com/resources/blog/sneak-peek-of-grandfather-father-son-backup-in-backup/ (Accessed: April 12, 2023).</br>
+								<br>Northcott, J. (2021) Backup best practices - the grandfather-father-son backup strategy, Vitanium. Available at: https://vitanium.com/best-backup-practices-the-grandfather-father-son-backup-strategy/ (Accessed: April 12, 2023). .</br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 12" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 12 - Future of Big Data Analytics</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>The future of big data analytics is a big topic, and with increased volumes of data, industries need to be set to scale with this rapidly increasing volume in terms of analytical capabilities (The Future of Big Data Analytics & Data Science: 5 trends of Tomorrow, 2023).</p>
+							<p>Khvoynitskaya also believes data volumes will increases and that more businesses will migrate to the cloud (Khvoynitskaya, 2020).</p>
+							<p>I believe that with this increase in data volume, will increase the demand for data scientists and understanding of underlying data concepts.</p>
+							<h2>Bibliography</h2>
+							<p>
+								<br>Khvoynitskaya, S. (2020) The Future of BIG DATA: 5 predictions from experts for 2020-2025, Itransition. Available at: https://www.itransition.com/blog/the-future-of-big-data (Accessed: April 12, 2023).</br>
+								<br>The Future of Big Data Analytics & Data Science: 5 trends of Tomorrow (2023) Monte Carlo Data. Available at: https://www.montecarlodata.com/blog-the-future-of-big-data-analytics-and-data-science/ (Accessed: April 12, 2023).</br>
+							</p>
+						</div>
+					</section>
+					
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Rhiannon. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
