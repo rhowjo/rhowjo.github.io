@@ -428,12 +428,29 @@
 						<div class="inner">
 							<h1 class="major">Unit 11 - Model Selection and Evaluation</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<p>In this unit I learned about various backup strategies. One such strategy is the Grandfather-Father-Son (GFS) backup strategy which is a backup rotation scheme. It consists of three or more backup cycles (daily, weekly, and monthly) allowing for independent retention policies for all (K, 2017).</p>
-							<p>There are three tiers of backup within this strategy: the grandfather which is a full machine backup (usually offsite), the father which is another full backup to a local device, and the son is a regular incremental backup (Northcott, 2021).</p>
-							<h2>Bibliography</h2>
+							<h2>Reflection</h2>
+							<p>This was a vital unit to help me further understand the importance of model evaluation using R2 scores and ROC curves. With this information, it is easier to determine the prediction accuracy and the overall fit of the model, whilst looking out for factors such as underfitting and overfitting.</p>
+							<p>Additionally, the group presentation was due in this unit. Again, I struggled with the task as I was largely left on my own to do the project as the other team members were either busy or unable to contribute for other reasons.</p>
+							<p>I, however, embraced the challenge, and managed to produce an adequate CNN model after creating a baseline ANN model to predict images from the CIFAR-10 dataset. This utilised all my knowledge gathered so far throughout the module and pushed me to learn more about tuning CNN models for better accuracy.</p>
 							<p>
-								<br>K, A. (2017) Sneak Peek of grandfather-father-son backup in MSP360 backup, MSP360 Blog. Available at: https://www.msp360.com/resources/blog/sneak-peek-of-grandfather-father-son-backup-in-backup/ (Accessed: April 12, 2023).</br>
-								<br>Northcott, J. (2021) Backup best practices - the grandfather-father-son backup strategy, Vitanium. Available at: https://vitanium.com/best-backup-practices-the-grandfather-father-son-backup-strategy/ (Accessed: April 12, 2023). .</br>
+								Artefacts for the presentation can be found here:
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/ANN%20and%20CNN.ipynb">Presentation Jupyter Notebook</a></li>
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/CNN%20script.docx">Presentation Script</a></li>
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/2cc397c1-9f18-47cd-9b76-152b7985cecd(1).mp4">Presentation Video</a></li>
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/CIFAR-10%20Neural%20Networks.pptx">Presentation Powerpoint</a></li>
+									
+							</p>
+							<h2>Task – Model Performance Measurement</h2>
+							<p>In this task, I observed the changes of parameters affecting the AUC and R2 error. The Jupyter Notebook was provided in the seminar materials.</p>
+							<p>The AUC (area under the curve or ROC curve) measures the are underneath an ROC curve. The ROC is a probability curve, and the AUC measures the degree of separability (Bhandari, 2023). Essentially, it measures how capable the model is at distinguish between different classes (Narkhede, 2021). The higher the AUC, the better the predictive model is.</p>
+							<p>In the notebook, changing the number of features has varying impact on the AUC, and thus the predictive capabilities of the model in terms of accuracy.</p>
+							<p>The R2 score is the proportion of variance in the dependent variable that is predictable from the independent variable. It can also be defined as the total variance explained by the model divided by the total variance (Kumar, 2023). High values indicate that there is perfect correlation between variables and low values indicate low correlation.</p>
+							<p>A high R2 score generally indicates that the model is a good fit, although other considerations such as overfitting and underfitting should be taken into account.</p>
+							<h3>References</h3>
+							<p>
+								<br>Bhandari, A. (2023) Guide to AUC ROC curve in machine learning : What is specificity?, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/ (Accessed: 20 October 2023).</br>
+								<br>Kumar, A. (2023) Mean squared error or r-squared - which one to use?, Analytics Yogi. Available at: https://vitalflux.com/mean-square-error-r-squared-which-one-to-use/ (Accessed: 20 October 2023).</br>
+								<br>Narkhede, S. (2021) Understanding AUC - roc curve, Medium. Available at: https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5 (Accessed: 20 October 2023).</br>
 							</p>
 						</div>
 					</section>
