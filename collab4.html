@@ -138,8 +138,8 @@
 							<h2>Task – Correlation and Regression</h2>
 							<p>To view the charts that are discussed below, please view my jupyter notebook here:<li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit03%20Ex1%20covariance_pearson_correlation(1).ipynb">Correlation Jupyter Notebook</a></li></p>
 							<p>In this task I looked at the supplied jupyter notebook and changed the default values to:</p>
-							<p>&bull; data1 = 1 * randn(1000) + 100</p>
-							<p>&bull; data2 = data1 + (10 * randn(1000) + 7)</p>
+							<p style="margin-left: 40px">&bull; data1 = 1 * randn(1000) + 100</p>
+							<p style="margin-left: 40px">&bull; data2 = data1 + (10 * randn(1000) + 7)</p>
 							<p>It can be observed that any changes to the data points can either negatively or positively affect the correlation. In this first iteration, there is essentially no correlation between data1 and data2. This can be further observed by a Pearsons correlation of 0.116.</p>
 							<p>In the second iteration, the correlation increases from first iteration, but is still less than the default values; the second iteration has a Pearson correlation of 0.698 and the default has a Pearsons correlation of 0.888.</p>
 							<p>Pearson correlation, which is demonstrated in the charts, is highly sensitive to outliers. An outlier has the capability to highly impact the outcome of the Pearsons correlation value (Magiya, 2022). Statistical methods such as using standard deviation can help alleviate the bias that may be caused by outliers (Dhadse, 2021). Alternative tests such as Spearman’s and Kendall’s are less sensitive to outliers and may be used instead if removing outliers is not an option (Zinda, 2023).</p>
@@ -183,7 +183,7 @@
 							<p>This unit helped me build upon my knowledge of linear regression from the previous units and introduced me to the Scikit-Learn library in python. This enabled me to easily create my own linear regression models. </p>
 							<p>However, in this unit, I struggled with this task and sought the help from classmates and conducted research to help find answers. In the end, I managed to come up with a working model for correlation and regression for the GDP and Population datasets. I utilised my skills gained from the EDA unit to help with the initial data preprocessing but needed help on combining the data as this was not something I had previous experience in.</p>
 							<h2>Task – Correlation and Regression</h2>
-							<p>Please see the Jupyter Notebook for the task here: <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit%204%20-%20Task.ipynb">GDP and Population Jupyter Notebook</a></li></p>
+							<p>Please see the Jupyter Notebook for the task here: <li style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit%204%20-%20Task.ipynb">GDP and Population Jupyter Notebook</a></li></p>
 							<p>In this task, we were given two datasets. The first dataset contained data for the GDP of each country and the second dataset contained data for the population of each country. We were tasked to combine the datasets to create a correlation graph that showed the relationship between the mean population and mean GDP of all the countries from 2001 to 2020.</p>
 							<p>The data firstly had to be pre-processed so that the there were no null values by replacing them with the median of any given column. Then, the data was limited to 2001 onwards and converted to numeric. After this, the mean for both datasets were calculated and put into a single data frame.</p>
 							<p>When showing this in a scatter plot, we can see that correlation is sparse. A Pearsons correlation coefficient of 0.031 confirms this. There are a quite a few outliers which can also affect the coefficient score.</p>
@@ -198,7 +198,7 @@
 							<h1 class="major">Unit 5 - Clustering</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 							<h2>Reflection</h2>
-							<p>TThis unit focused on clustering. Clustering is a method of partitioning data into groups (clusters). These are defined as data points that have more similarity that other data points. It’s predominately used for customer segmentation in businesses (Kaushik, 2023).</p>
+							<p>This unit focused on clustering. Clustering is a method of partitioning data into groups (clusters). These are defined as data points that have more similarity that other data points. It’s predominately used for customer segmentation in businesses (Kaushik, 2023).</p>
 							<p>This was my first experience with clustering but it’s applications and uses made sense to me from a business perspective, especially when envisioning customer segmentation. With this knowledge, I was more comfortable going into future units because I had a good base understanding in terms of how the measurements of distance worked as well as how to evaluate whether clustering has worked well or not (Manimaran, 2021).</p>
 							<h3>References</h3>
 							<p>
@@ -208,25 +208,25 @@
 							<h2>Task – Jaccard Coefficient</h2>
 							<p>For this task, we were asked to look at Jaccard Coefficient Calculations also known as Jaccard similarity. This is used to compute the similarity between objects.</p>
 							<p>The formula is thus: JC=Ni/(Na+Nb−Ni)</p>
-							<p>&bull;Ni is the intersecting elements (how many elements are shared between the sets</p>
-							<p>&bulll;Na is the number of elements in set A.</p>
-							<p>&bull;Nb is the number of elements in set B.</p>
+							<p style="margin-left: 40px">&bull;Ni is the intersecting elements (how many elements are shared between the sets</p>
+							<p style="margin-left: 40px">&bull;Na is the number of elements in set A.</p>
+							<p style="margin-left: 40px">&bull;Nb is the number of elements in set B.</p>
 							<p>In this scenario, elements will be instances of Y and P in the various columns.</p>
 							<p>Jack and Mary:</p>
-							<p>&bull;Jack – Fever, Test-1 = 2 elements</p>
-							<p>&bull;Mary – Fever, Test-1, Test-3 = 3 elements</p>
-							<p>&bull;Intersecting Elements = 2</p>
-							<p>&bull;JC = 2/ (2+3−2) = 0.66</p>
+							<p style="margin-left: 40px">&bull;Jack – Fever, Test-1 = 2 elements</p>
+							<p style="margin-left: 40px">&bull;Mary – Fever, Test-1, Test-3 = 3 elements</p>
+							<p style="margin-left: 40px">&bull;Intersecting Elements = 2</p>
+							<p style="margin-left: 40px">&bull;JC = 2/ (2+3−2) = 0.66</p>
 							<p>Jack and Jim:</p>
-							<p>&bull;Jack – Fever, Test-1 = 2 elements</p>
-							<p>&bull;Jim – Fever, Cough = 2 elements</p>
-							<p>&bull;Intersecting Elements = 1</p>
-							<p>&bull;JC = 1/ (2+2-1) = 0.33</p>
+							<p style="margin-left: 40px">&bull;Jack – Fever, Test-1 = 2 elements</p>
+							<p style="margin-left: 40px">&bull;Jim – Fever, Cough = 2 elements</p>
+							<p style="margin-left: 40px">&bull;Intersecting Elements = 1</p>
+							<p style="margin-left: 40px">&bull;JC = 1/ (2+2-1) = 0.33</p>
 							<p>Jim and Mary</p>
-							<p>&bull;Jim – Fever, Cough = 2 elements</p>
-							<p>&bull;Mary – Fever, Test-1, Test-3 = 3 elements</p>
-							<p>&bull;Intersecting Elements = 1</p>
-							<p>&bull;JC = 1/ (2+3-1) = 0.25</p>
+							<p style="margin-left: 40px">&bull;Jim – Fever, Cough = 2 elements</p>
+							<p style="margin-left: 40px">&bull;Mary – Fever, Test-1, Test-3 = 3 elements</p>
+							<p style="margin-left: 40px">&bull;Intersecting Elements = 1</p>
+							<p style="margin-left: 40px">&bull;JC = 1/ (2+3-1) = 0.25</p>
 						</div>
 					</section>
 					</section>
