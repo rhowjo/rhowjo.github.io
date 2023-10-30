@@ -59,7 +59,10 @@
 							<h1 class="major">Introduction</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 							<p>The format of this section of the e-Portfolio for Machine learning is split into sections covering each unit.</p>
-							<p>Each unit is split into a general reflection followed by any tasks undertaken during the unit. This means that any collaborative discussion initial and summary posts will appear in the unit they were completed. For example, the initial post for the first collaborative discussion will appear under Unit 1 and the summary post in Unit 3.</p>						</div>
+							<p>Each unit is split into a general reflection followed by any tasks undertaken during the unit. This means that any collaborative discussion initial and summary posts will appear in the unit they were completed. For example, the initial post for the first collaborative discussion will appear under Unit 1 and the summary post in Unit 3. References will be provided where applicable in each section.</p>						
+							<p>Tasks may reference and link to jupyter notebooks where all charts and code that are referred to in the text can be found. Please use the links provided as they are key in understanding what the tasks are referencing.</p>
+						</div>
+							
 					</section>
 						<section id="Unit 1" class="wrapper">
 						<div class="inner">
@@ -76,7 +79,7 @@
 							<p>Since this missing data would have been used for the NHS app to alert people that they may have been exposed to the virus, the impact of this meant that thousands of people may have been unaware of this exposure. Subsequently, this could have resulted in increased spread of the virus and further deaths.</p>
 							<p>This demonstrates the importance of adapting and adopting new technologies in order to best deliver products and services (Schwab, 2016). There is a real need to replace these outdated systems for something more robust (Sevre et al., 2011). This is especially true when data is critical to public health (Birkhead, 2015).</p>
 
-							<h3>Bibliography</h3>
+							<h3>References</h3>
 							<p>
 								<br>Birkhead, G.S., Klompas, M. and Shah, N.R. (2015) ‘Uses of electronic health records for public health surveillance to Advance Public Health’, Annual Review of Public Health, 36(1), pp. 345–359. doi:10.1146/annurev-publhealth-031914-122747.</br>
 								<br>Kelion, L. (2020) Excel: Why using Microsoft’s tool caused covid-19 results to be lost, BBC News. Available at: https://www.bbc.co.uk/news/technology-54423988 (Accessed: 10 August 2023).</br>
@@ -88,16 +91,36 @@
 					</section>
 						<section id="Unit 2" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 2 - Introduction to Data Types and Formats</h1>
+							<h1 class="major">Unit 2 - Exploratory Data Analysis</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<p>This unit provided me an overview of the various data types such as (but not limited to): characters, strings, lists, float, integer, dictionaries, Boolean, and variables. </p>
-							<p>Additionally, this unit covered the different data formats: structured data (clearly defined , semi-structured data (textual data files with an apparent pattern such as emails and XML files), quasi-structured data (textual data with erratic formats that can be reformatted via software tools), and unstructured data (information that does not have a basic text format such as video and audio files) – Wietzal, 2022 and Structured vs unstructured data vs semi-structured data, 2022.</p>
+							<h2>Reflection</h2>
+							<p>This was another topic that I have had experience within a previous module, so naturally the concepts of this felt comfortable for me to learn and grasp.</p>
+							<p>This allowed me to refresh my knowledge with EDA. EDA is a process to ensure that the data is understood and can be checked for null values, anomalies, and errors. It allows for appropriate feature selection to then be used in machine learning and can help test hypotheses (Patil, 2018).</p>
+							<p>This topic was particularly useful for the first assignment as this was a large part in ensuring an accurate model was possible for the Airbnb dataset. I replaced null values and normalised the data and produced charts to analyse the data to see if there were any patterns.</p>
 							
-							<h2>Bibliography</h2>
+							<h3>Bibliography</h2>
 							<p>
-								<br>Kazil, J, & Jarmul, K 2016, Data Wrangling with Python : Tips and Tools to Make Your Life Easier, O'Reilly Media, Incorporated, Sebastopol. Available from: ProQuest Ebook Central. [16 April 2023].</br>
-								<br>Structured vs unstructured data vs semi-structured data (2022) Accern. Available at: https://accern.com/blog/structured-vs-semi-structured-vs-unstructured-data/ (Accessed: April 12, 2023). </br>
-								<br>Weitzel, A. (2022) The difference between structured and unstructured data, CourseKey. Available at: https://coursekey.com/blog/structured-vs-unstructured-data/ (Accessed: April 12, 2023). </br>
+								<br>Patil, P. (2022) What is Exploratory Data Analysis?, Medium. Available at: https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15 (Accessed: 16 August 2023).</br>
+
+							</p>
+							<h2>Task - EDA</h2>
+							<p>In this task, I utilised several libraries such as numpy, pandas, seaborn, and matplotlib to assist in undertaking exploratory data analysis on the auto.mpg dataset downloaded from Kaggle.</p>
+							<p>Initially, I looked at the head and tail of the data to get a brief understanding of the different columns and their values (Mahadevan, 2023). I also looked at the overall shape of the dataset to give a definitive answer to how many columns and rows there are (in this case 398 rows and 9 columns).</p>
+							<p>An important step in EDA is to check for any errors or anomalies in the data (Chelliah, 2021). One step to check this is to look for null values. Looking at isnull().any() for the dataset, there appear to be no null values. However, when looking at the data types, horsepower is seen as type object. When looking at the values for horsepower, we can see that these are clearly numerical and should be an integer or float.</p>
+							<p>Instead of a null value, there is a ‘?’. So, the next step was to change this to a null value, change it to float type and then replace the null value with the median value for the column. There are now no null values in the dataset and all data types are correct.</p>
+							<p>Next, the scipy library is imported to look at the skew and kurtosis of the dataset.</p>
+							<p>Skewness for columns such as ‘horsepower ‘is greater than 1 meaning that the data is highly skewed (Dan, 2020). Other columns are slightly skewed with some being fairly symmetrical. This level of skewness is generally acceptable.</p>
+							<p>The kurtosis measure if the distribution is too peaked. Positive values mean that the distribution peaked more than normal, and a negative kurtosis indicates a flatter shape. Values closer to 0 indicate a dataset that is close to normal distribution. Generally, kurtosis values of +2 and above or -2 and above indicate that either the datasets distribution is too peaked or too flat (Hair et al, 2022). However, in the auto.mpg dataset, this is not the case as values fall within -1.5 to 0.8.</p>
+							<p>In the final parts of the EDA, I looked at the correlation between variables. We can see that there are some instances of high correlation, the highest being between weight and displacement with a value of 0.8.</p>
+							<p>I decided to explore this correlation further by plotting a scatter graph of the two variables and we can see that although there are outliers, the two variables are correlated.</p>
+							<p>There is certainly more that can be done and achieved in an EDA, but this served as a good refresher and served as a good baseline for the EDA performed in the assessment in Unit 6.</p>
+							<h3>References</h3>
+							<p>
+								<br>Chelliah, I. (2021) Data cleaning - how to handle missing values in pandas, Medium. Available at: https://towardsdatascience.com/data-cleaning-how-to-handle-missing-values-in-pandas-cc8570c446ec (Accessed: 16 August 2023).</br>
+								<br>Dan, A. (2020) Kurtosis() & skew() function in pandas, Medium. Available at: https://medium.com/@atanudan/kurtosis-skew-function-in-pandas-aa63d72e20de (Accessed: 16 August 2023).</br>
+								<br>Hair, J.F. et al. (2022) A primer on partial least squares structural equation modeling (PLS-SEM). Los Angeles i 5 pozostałych: SAGE.</br>
+								<br>Mahadevan, M. (2023) Step-by-step exploratory data analysis (EDA) using Python, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analysis-eda-using-python/ (Accessed: 16 August 2023).</br>
+
 							</p>
 						</div>
 					</section>
