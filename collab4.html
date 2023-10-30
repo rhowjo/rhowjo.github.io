@@ -16,7 +16,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Machine Learning</a>
+				<a href="index.html" class="title">                                Machine Learning</a>
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -177,14 +177,19 @@
 					</section>
 						<section id="Unit 4" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 4 - Data Cleaning and Transformation</h1>
+							<h1 class="major">Unit 4 - Linear Regression with Scikit-Learn</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<p>For this unit, I went through the process of data cleaning which is the quantitatively checking to ensure the data contains information that is accurate. (Huxley et al., 2020).This process follows gathering the raw data.  This helps ensure that the data is from inaccuracies and duplicates and removes or modifies incomplete, incorrectly formatted or corrupted data (Fitzgerald, 2022).</p>
-							<h2>Bibliography</h2>
-							<p>
-								<br>Ganti, V. and Sarma, A. (2013) Data Cleaning : A Practical Perspective (Synthesis Lectures on Data Management). 1st Ed. Morgan & Claypool Publishers. Huxley, K., Atkinson, P,. Delamont, S., Cermut,A., Sakshaug, J. &. Williams, R. (2020) Data cleaning. Sage Foundation. Available from: https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data</br>
-								<br>Fitzgerald, A. (2022) Data cleansing: What it is, why it matters & how to do it, HubSpot Blog. HubSpot. Available at: https://blog.hubspot.com/website/data-cleansing (Accessed: April 12, 2023). </br>
-							</p>
+							<h2>Reflection</h2>
+							<p>This unit helped me build upon my knowledge of linear regression from the previous units and introduced me to the Scikit-Learn library in python. This enabled me to easily create my own linear regression models. </p>
+							<p>However, in this unit, I struggled with this task and sought the help from classmates and conducted research to help find answers. In the end, I managed to come up with a working model for correlation and regression for the GDP and Population datasets. I utilised my skills gained from the EDA unit to help with the initial data preprocessing but needed help on combining the data as this was not something I had previous experience in.</p>
+							<h2>Task – Correlation and Regression</h2>
+							<p>Please see the Jupyter Notebook for the task here: <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit%204%20-%20Task.ipynb">GDP and Population Jupyter Notebook</a></li></p>
+							<p>In this task, we were given two datasets. The first dataset contained data for the GDP of each country and the second dataset contained data for the population of each country. We were tasked to combine the datasets to create a correlation graph that showed the relationship between the mean population and mean GDP of all the countries from 2001 to 2020.</p>
+							<p>The data firstly had to be pre-processed so that the there were no null values by replacing them with the median of any given column. Then, the data was limited to 2001 onwards and converted to numeric. After this, the mean for both datasets were calculated and put into a single data frame.</p>
+							<p>When showing this in a scatter plot, we can see that correlation is sparse. A Pearsons correlation coefficient of 0.031 confirms this. There are a quite a few outliers which can also affect the coefficient score.</p>
+							<p>This data was then put into a linear regression model. Firstly, the data was reshaped into one column and then split into train and test datasets with a test size of 25%.</p>
+							<p>After training, we can see that the R2 score is 0.0019, generally meaning that 0.19% of the variance of the dependent variable is explained by the independent variable. That is to say that this is not a good model for predicting GDP from population or population from GDP. </p>
+						
 						</div>
 					</section>
 					</section>
