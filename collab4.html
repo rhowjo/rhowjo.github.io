@@ -60,6 +60,7 @@
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 							<p>The format of this section of the e-Portfolio for Machine learning is split into sections covering each unit.</p>
 							<p>Each unit is split into a general reflection followed by any tasks undertaken during the unit. This means that any collaborative discussion initial and summary posts will appear in the unit they were completed. For example, the initial post for the first collaborative discussion will appear under Unit 1 and the summary post in Unit 3. References will be provided where applicable in each section.</p>						
+							<p>Additionally, it should be noted reflections are my general thoughts, feelings, and learnings on the topic of the unit and thus will rarely include any references.</p>
 							<p>Tasks may reference and link to jupyter notebooks where all charts and code that are referred to in the text can be found. Please use the links provided as they are key in understanding what the tasks are referencing.</p>
 						</div>
 							
@@ -128,14 +129,32 @@
 					</section>
 						<section id="Unit 3" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 3 - Data Collection and Storage</h1>
+							<h1 class="major">Unit 3 - Correlation and Regression</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<p>Here is a snippet of Python code that was used for the web scraping task: <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit%202%20-%20EDA%20task.ipynb">EDA Jupyter Notebook</a> </li></p>
-							<p>Additionally, I learnt about the multitude of sources where data can be collected from like NGOs, education, and governments. As well as this, it is necessary to fact check and verify the sources to ensure that the data is valid (Kazil & Jarmul, 2016).</p>
+							<h2>Reflection</h2>
+							<p>This is the first unit in the module that started to put theory into practice. In this case, it was looking at the correlation between variables as well as regression.</p>
+							<p>I found it useful to learn the differences between correlation and regression and what is best to use in any given situation. More detail on this can be found in the task below.</p>
+							<p>Learning more about regression improved my skills and enabled me to create a regression model which was used in the assessment in Unit 6. It was a lot of information to understand but, with time and practice I was able to present working models based on regression.</p>
+							<h2>Task – Correlation and Regression</h2>
+							<p>To view the charts that are discussed below, please view my jupyter notebook here:<li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit03%20Ex1%20covariance_pearson_correlation(1).ipynb">Correlation Jupyter Notebook</a></li></p>
+							<p>In this task I looked at the supplied jupyter notebook and changed the default values to:</p>
+							<p>&bull; data1 = 1 * randn(1000) + 100</p>
+							<p>&bull; data2 = data1 + (10 * randn(1000) + 7)</p>
+							<p>It can be observed that any changes to the data points can either negatively or positively affect the correlation. In this first iteration, there is essentially no correlation between data1 and data2. This can be further observed by a Pearsons correlation of 0.116.</p>
+							<p>In the second iteration, the correlation increases from first iteration, but is still less than the default values; the second iteration has a Pearson correlation of 0.698 and the default has a Pearsons correlation of 0.888.</p>
+							<p>Pearson correlation, which is demonstrated in the charts, is highly sensitive to outliers. An outlier has the capability to highly impact the outcome of the Pearsons correlation value (Magiya, 2022). Statistical methods such as using standard deviation can help alleviate the bias that may be caused by outliers (Dhadse, 2021). Alternative tests such as Spearman’s and Kendall’s are less sensitive to outliers and may be used instead if removing outliers is not an option (Zinda, 2023).</p>
+							<p>Correlation, then, is a useful technique for investigating the relationship between variables.</p>
+							<p>“Correlation quantifies the strength of the linear relationship between a pair of variables, whereas regression expresses the relationship in the form of an equation.” - Bewick et al., 2003</p>
+							<p>Thus, regression measures how two variables affect each other, and correlation measures the relationship. Regression also enables to ability to predict outcomes (Calvello, 2023).</p>
 							
-							<h2>Bibliography</h2>
+							
+							<h3>References</h3>
 							<p>
-								<br>Kazil, J., & Jarmul, K. (2016) Data Wrangling with Python. O'Reilly Media, Inc. Available via the Vitalsource Bookshelf. [Accessed 12 April 2023]. </br>
+								<br>Bewick, V., Cheek, L. and Ball, J. (2003) Critical Care, 7(6), p. 451. doi:10.1186/cc2401</br>
+								<br>Calvello, M. (2023) Correlation vs. regression made easy: Which to use and why? - G2, g2.com. Available at: https://www.g2.com/articles/correlation-vs-regression (Accessed: 22 August 2023).</br>
+								<br>Dhadse, A. (2021) Removing outliers. understanding how and what behind the magic., Medium. Available at: https://medium.com/analytics-vidhya/removing-outliers-understanding-how-and-what-behind-the-magic-18a78ab480ff (Accessed: 22 August 2023).</br>
+								<br>Magiya, J. (2022) Pearson coefficient of correlation explained., Medium. Available at: https://towardsdatascience.com/pearson-coefficient-of-correlation-explained-369991d93404 (Accessed: 22 August 2023).</br>
+								<br>Zinda, Z. (2023) Data Science Stats Review: Pearson’s, Kendall’s, and spearman’s correlation for feature selection, phData. Available at: https://www.phdata.io/blog/data-science-stats-review/ (Accessed: 22 August 2023).</br>
 							</p>
 						</div>
 					</section>
