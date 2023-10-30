@@ -62,6 +62,7 @@
 							<p>Each unit is split into a general reflection followed by any tasks undertaken during the unit. This means that any collaborative discussion initial and summary posts will appear in the unit they were completed. For example, the initial post for the first collaborative discussion will appear under Unit 1 and the summary post in Unit 3. References will be provided where applicable in each section.</p>						
 							<p>Additionally, it should be noted reflections are my general thoughts, feelings, and learnings on the topic of the unit and thus will rarely include any references.</p>
 							<p>Tasks may reference and link to jupyter notebooks where all charts and code that are referred to in the text can be found. Please use the links provided as they are key in understanding what the tasks are referencing.</p>
+							<p>Some tasks reference Jupyter Notebooks that were provided in the seminar materials. Because of this, I will not be linking them here, as they are easily accessible on the University of Essex Moodle for the module. </p>
 						</div>
 							
 					</section>
@@ -360,19 +361,43 @@
 					</section>
 						<section id="Unit 9" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 9 - Database Management Systems (DBMS) and Models</h1>
+							<h1 class="major">Unit 9 - Introduction to Convolutional Neural Networks (CNNs)</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<p>DBMS is software used for creating and managing databases. It allows users to be able to update data, delete it, create it etc. Database management systems such as MySQL and Oracle DBMS for structured relational data make data organised and accessible (Mullins, 2022).</p>							
-							<h2>Bibliography</h2>
+							<h2>Reflection</h2>
+							<p>This was my first introduction to convolutional neural networks. I learnt a lot from this unit that influenced the final team presentation in Unit 11. It was in this unit that I first used the Tensorflow library in python and learnt about convolutional layers, max pooling, filters and much more.</p>
+							<p>In total, it was a lot of information to process, but was necessary to be able to better understand the capabilities of neural networks when it comes to image recognition.</p>
+							<h2>Task - Wall Article</h2>
+							<p>The article by Wall (2019) focuses on facial recognition performed by AI and it’s real world uses and implications.</p>
+							<p>Particularly, police forces are using automated face recognition toe identify criminals and terrorists (Wall, 2019). Whilst this sounds good in theory, can we trust the AI to be good enough for use in high stakes situations?</p>
+							<p>In my opinion, such technology should never be put to practice due to inherent biases in data, especially when it comes to policing; there have been many studies that identify algorithms that are used by the police are racist. For example, in the US, you are twice as likely to be arrested if you are black than if you are white (Heaven, 2023). If this is the type of data that AI is trained upon, then it is likely to show an equivalent bias in it’s results. Further, a report has shown that police are using falsified data to train AI (Hao, 2020).</p>
+							<p>This shows that the logic used is faulty, if more black people are arrested, then black people are more likely to be identified as criminals by AI. If more police are dispatched to a neighbourhood, there will be more crime or arrests in that area (Reese, 2022).</p>
+							<p>Until institutions such as the police are fundamentally changed to remove their bias, then AI use in this area should be limited.</p>
+														
+							<h3>References</h3>
 							<p>
-								<br>Mullins, C.S. (2022) Database management system (DBMS), Data Management. TechTarget. Available at: https://www.techtarget.com/searchdatamanagement/definition/database-management-system (Accessed: April 12, 2023). </br>
+								<br>Hao, K. (2020) Police across the US are training crime-predicting AIS on falsified data, MIT Technology Review. Available at: https://www.technologyreview.com/2019/02/13/137444/predictive-policing-algorithms-ai-crime-dirty-data/ (Accessed: 15 October 2023).</br>
+								<br>Heaven, W.D. (2023) Predictive policing algorithms are racist. they need to be dismantled., MIT Technology Review. Available at: https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/ (Accessed: 15 October 2023).</br>
+								<br>Reese, H. (2022) What happens when police use AI to predict and prevent crime?, Daily JSTOR. Available at: https://daily.jstor.org/what-happens-when-police-use-ai-to-predict-and-prevent-crime/ (Accessed: 15 October 2023).</br>
+								<br>Wall, M. (2019) Biased and wrong? Facial Recognition Tech in the dock, BBC News. Available at: https://www.bbc.co.uk/news/business-48842750 (Accessed: 14 October 2023).</br>
+							</p>
+							<h2>Task – CNN Model</h2>
+							<p>This was my first introduction to how a CNN model works in practice using the CIFAR-10 dataset. This proved useful going forward with the final group presentation as it used the same dataset.</p>
+							<p>In this task we were asked to examine the CNN model provided to us in a Jupyter Notebook provided in the seminar materials.</p>
+							<p>It can be observed that the model used two convolutional layers using the ReLU activation and a relatively low number of filters at 32. These were followed by a pooling layer. In architecture such as VGG, there are multiple convolutional layers that increase the number of filters each layer (Boesch, 2023).</p>
+							<p>From the initial model, we can see there a total of 255,610 parameters. We can see that the validation accuracy is 67% in the final epoch before the early stopping occurs due to the validation loss not decreasing after 2 epochs (as the patience was set to 2).</p>
+							<p>It is clear that this model could be improved upon with more convolutional layers as well as using regularisation techniques to improve accuracy and any underfitting or overfitting of the model (Brownlee, 2020).</p>
+							<h3>References</h3>
+							<p>
+								<br>Boesch, G. (2023) VGG very deep convolutional networks (vggnet) - what you need to know, viso.ai. Available at: https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/ (Accessed: 12 October 2023). </br>
+								<br>Brownlee, J. (2020) How to develop a CNN from scratch for CIFAR-10 photo classification, MachineLearningMastery.com. Available at: https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-cifar-10-photo-classification/ (Accessed: 12 October 2023).</br>
+
 							</p>
 						</div>
 					</section>
 					</section>
 						<section id="Unit 10" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 10 - More on APIs (Application Programming Interfaces) for Data Parsing</h1>
+							<h1 class="major">Unit 10 - CNN Interactive Learning</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 							<p>In this unit I worked in our team to produce a document on API security requirements. See here <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/f2d46afb901f8486aa2d75b911e78dc394533412/api_security_brief%20(1).pdf">Here</a></p>
 							<p>I learned more about APIs (application programming interface) which essentially enables two programs to communicate (Lutkevich & Nolle, 2022). A application such as Facebook has a marketing API the users can connect with their application using the Facebook Marketing API. This enables access to data upon request (Marketing API).</p>
@@ -386,7 +411,7 @@
 					</section>
 						<section id="Unit 11" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 11 - DBMS Transaction and Recovery</h1>
+							<h1 class="major">Unit 11 - Model Selection and Evaluation</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 							<p>In this unit I learned about various backup strategies. One such strategy is the Grandfather-Father-Son (GFS) backup strategy which is a backup rotation scheme. It consists of three or more backup cycles (daily, weekly, and monthly) allowing for independent retention policies for all (K, 2017).</p>
 							<p>There are three tiers of backup within this strategy: the grandfather which is a full machine backup (usually offsite), the father which is another full backup to a local device, and the son is a regular incremental backup (Northcott, 2021).</p>
@@ -400,7 +425,7 @@
 					</section>
 						<section id="Unit 12" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 12 - Future of Big Data Analytics</h1>
+							<h1 class="major">Unit 12 - Industry 4.0 and Machine Learning</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 							<p>The future of big data analytics is a big topic, and with increased volumes of data, industries need to be set to scale with this rapidly increasing volume in terms of analytical capabilities (The Future of Big Data Analytics & Data Science: 5 trends of Tomorrow, 2023).</p>
 							<p>Khvoynitskaya also believes data volumes will increases and that more businesses will migrate to the cloud (Khvoynitskaya, 2020).</p>
