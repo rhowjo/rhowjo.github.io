@@ -232,16 +232,39 @@
 					</section>
 						<section id="Unit 6" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Unit 6 - Database Design and Normalisation</h1>
+							<h1 class="major">Unit 6 - Clustering with Python</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<p>I learnt about database design in terms of normalisation which is an extension of data cleaning. However, in this case it means looking at statistics such as standard deviation to check for patterns and outliers, as well as checking the range.</p>
-							<p>Additionally, primary keys (unique identifiers) are columns for a unique record within a table like an order number (Database key terms, explained and (What is primary and foreign keys in database (purpose and use), 2023)</p>
-							<p>The first team project was submitted during this unit.</p>
-							<h2>Bibliography</h2>
+							<h2>Reflection</h2>
+							<p>This reflection will focus on the group project as in this Unit, the first group project was due. This was a difficult process as the team was not working well. Each person did their own EDA and subsequently created their own models. However, too much focus was put on k-means clustering which didn’t produce successful results on this dataset. It was my idea to use regression models to predict price. </p>
+							<p>We didn’t settle on a clear question until after the EDA. After this analysis, we produced the question: “what features have the biggest impact on price?”</p>
+							<p>In my version, which produced the final model, the model was based of regression methods and iterated through different models such as linear regression, decision tree, random forest, and XGBoost.</p>
+							<p>It was in this process that I learnt about hyperparameter tuning in order to prevent overfitting, as well as increasing accuracy (Olaoye, 2022). In the end, I produced a model that reached 64% accuracy, which, with more relevant variables included in the data, could be even higher (T, 2019).</p>
+							<p>This was a difficult task to complete because I had essentially done all the code and the final report on my own with little outside help from my teammates.</p>
+							<p>It was beneficial that I am self-proficient and had a good understanding of what needed to be done to complete this task. Although, I do believe that with better collaboration between the group, we would have gotten a better grade.</p>
+							<h3>References</h3>
 							<p>
-								<br>Database key terms, explained (no date) KDnuggets. Available at: https://www.kdnuggets.com/2016/07/database-key-terms-explained.html (Accessed: April 17, 2023).</br>
-								<br>What is primary and foreign keys in database (purpose and use) (2023) Web Hosting Blog from eUKhost. Available at: https://www.eukhost.com/blog/webhosting/what-the-use-of-primary-foreign-keys-in-database/ (Accessed: April 12, 2023).</br>
+								<br>Olaoye, A. (2022) 4 effective ways to prevent overfitting and why they work, Medium. Available at: https://towardsdatascience.com/4-effective-ways-to-prevent-overfitting-and-why-they-work-f6e3b98aefda (Accessed: 13 September 2023). </br>
+								<br>T, S.B. (2019) Having more features leads to a better prediction, yes/no?, Medium. Available at: https://medium.datadriveninvestor.com/having-more-features-leads-to-a-better-prediction-yes-no-f82cc6183b37 (Accessed: 13 September 2023).</br>
 
+							</p>
+							<h2>Task – K-means Clustering</h2>
+							<h3>Task A: Iris</h3>
+							<p>Link to Jupyter Notebook for Task A: <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Task%20A%20-%20Iris.ipynb">Task A Jupyter Notebook</a></li></p>
+							<p>Firstly, k-mean clustering was performed on the iris dataset.</p>
+							<p>To begin, the distributions between each variable was looked at. We can already see that the different species are already grouped in some ways when it comes to relationships between variables.</p>
+							<p>Next, k-means cluster was performed for 1-10 clusters. Using the elbow curve, we can see the optimal number of clusters is 3 – which matches the number of species in the dataset.</p>
+							<p>We can see that the clusters are mostly distinct but with some overlap.</p>
+							<h3>Task B: Wine</h3>
+							<p>Link to Jupyter Notebook for Task B: <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Task%20B%20-%20Wine.ipynb">Task B Jupyter Notebook</a></li></p>
+							<p>The second task was to look at the wine data set. Similar to the Iris dataset, there are 3 unique values for wine. The process for k-means clustering was comparable to the Iris dataset. When looking at the elbow curve, again, the optimal number of clusters is 3.</p>
+							<p>However, for this dataset I used PCA (principal component analysis) to help plot the data. This reduces the dimensionality of the data set. The idea is to reduce the number of variables whilst preserving as much information as possible (Jaadi, 2023).</p>
+							<p>In the plot we can see three distinct clusters for wine and their respective centroids. Following this is a heat map of the variables.</p>
+							<h3>Task C: Weather</h3>
+							<p>Link to Jupyter Notebook for Task C: <li><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Task%20C%20-%20Weather.ipynb">Task C Jupyter Notebook</a></li></p>
+							<p>For the final task, I used the same methods as in the other two datasets and plotted an elbow curve, which again has optimal number of clusters of 3. However, after looping through we can see the centroid are very close together for each group and there is an increasing overlap/overfit as the clusters increase.</p>
+							<h3>References</h3>
+							<p>
+								<br>Jaadi, Z. (2023) A step-by-step explanation of principal component analysis (PCA), Built In. Available at: https://builtin.com/data-science/step-step-explanation-principal-component-analysis (Accessed: 14 September 2023).</br>
 							</p>
 						</div>
 					</section>
