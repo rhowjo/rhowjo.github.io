@@ -1,0 +1,492 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research Methods and Professional Practice</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="collab5.html" class="title" style="margin-left: 400px">Research Methods and Professional Practice</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="collab5.html" class="active">Research Methods and Professional Practice</a></li>
+					</ul>
+				</nav>
+			</header>
+		
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#header">Return to top</a></li>
+							<li><a href="#Introduction">Introduction</a></li>
+							<li><a href="#Unit 1">Unit 1 - Scientific Investigation and Ethics</a></li>
+							<li><a href="#Unit 2">Unit 2 - Research Questions, the Literature Review and the Research Proposal</a></li>
+							<li><a href="#Unit 3">Unit 3 - Research Methods</a></li>
+							<li><a href="#Unit 4">Unit 4 - Case Studies, Focus Groups and Observations</a></li>
+							<li><a href="#Unit 5">Unit 5 - Interviews and Survey Methods</a></li>
+							<li><a href="#Unit 6">Unit 6 - Questionnaire Design</a></li>
+							<li><a href="#Unit 7">Unit 7 - Validity and Generalisability in Research</a></li>
+							<li><a href="#Unit 8">Unit 8 - Inferential Statistics</a></li>	
+							<li><a href="#Unit 9">Unit 9 - Analysis Qualitative Data</a></li>
+							<li><a href="#Unit 10">Unit 10 - Research Writing</a></li>
+							<li><a href="#Unit 11">Unit 11 - Your e-Portfolio</a></li>
+							<li><a href="#Unit 12">Unit 12 - Project Management and Managing Risk</a></li>	
+							
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="Introduction" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Introduction</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<p>The format of this section of the e-Portfolio for Research Methods and Professional Practice is split into sections covering each unit.</p>
+							<p>Each unit is split into a general reflection followed by any tasks undertaken during the unit. This means that any collaborative discussion initial and summary posts will appear in the unit they were intended to be completed. For example, the initial post for the first collaborative discussion will appear under Unit 1 and the summary post in Unit 3. References will be provided where applicable in each section.</p>						
+							<p>Additionally, it should be noted reflections are my general thoughts, feelings, and learnings on the topic of the unit and thus will rarely include any references.</p>
+
+						</div>
+							
+					</section>
+						<section id="Unit 1" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 1 - Scientific Investigation and Ethics</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>In this introductory unit, there were a few activities to undertake. Unfortunately, due to time constraints in my personal life, I was unable to contribute to discussions at the time but have written what my contribution would have been below. </p>
+							<p>This was a broad introduction that focused mostly on ethics and standards in computing as well as scientific methods for reasoning.</p>
+							<p>I believe that this unit set a good precedent for what to expect from the module, and I gained a better understanding of the ethics surrounding the area of computing.</p>
+							
+							<h2>Task – Collaborative Discussion Initial Post – The 4th Industrial Revolution</h2>
+							<p>In September 2020, at the height of the COVID pandemic in the UK, there was an IT failure that meant that nearly 16,000 coronavirus cases were unreported (Kelion, 2020). This was due to Public Health England using an old file format, xls, that could only handle 65,000 rows of data, rather than more modern formats like xlsx than can handle up to 1,000,000 (Vincent, 2020).</p>
+							<p>Since this missing data would have been used for the NHS app to alert people that they may have been exposed to the virus, the impact of this meant that thousands of people may have been unaware of this exposure. Subsequently, this could have resulted in increased spread of the virus and further deaths.</p>
+							<p>This demonstrates the importance of adapting and adopting new technologies in order to best deliver products and services (Schwab, 2016). There is a real need to replace these outdated systems for something more robust (Sevre et al., 2011). This is especially true when data is critical to public health (Birkhead, 2015).</p>
+
+							<h3>References</h3>
+							<p>
+								<br>Birkhead, G.S., Klompas, M. and Shah, N.R. (2015) ‘Uses of electronic health records for public health surveillance to Advance Public Health’, Annual Review of Public Health, 36(1), pp. 345–359. doi:10.1146/annurev-publhealth-031914-122747.</br>
+								<br>Kelion, L. (2020) Excel: Why using Microsoft’s tool caused covid-19 results to be lost, BBC News. Available at: https://www.bbc.co.uk/news/technology-54423988 (Accessed: 10 August 2023).</br>
+								<br>Schwab, K. (2016) The Fourth Industrial Revolution: What It Means and how to respond, World Economic Forum. Available at: https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/ (Accessed: 10 August 2023).</br>
+								<br>Sevre, C., dela Cruz, N. and Westgard, T. (2011) ‘Orm and retirement of outdated business system’, On the Move to Meaningful Internet Systems: OTM 2011 Workshops, pp. 258–267. doi:10.1007/978-3-642-25126-9_37.</br>
+								<br>Vincent, J. (2020) Excel spreadsheet error blamed for UK’s 16,000 missing coronavirus cases, The Verge. Available at: https://www.theverge.com/2020/10/5/21502141/uk-missing-coronavirus-cases-excel-spreadsheet-error (Accessed: 10 August 2023).</br>
+							</p>
+						</div>
+					</section>
+						<section id="Unit 2" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 2 - Exploratory Data Analysis</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This was another topic that I have had experience within a previous module, so naturally the concepts of this felt comfortable for me to learn and grasp.</p>
+							<p>This allowed me to refresh my knowledge with EDA. EDA is a process to ensure that the data is understood and can be checked for null values, anomalies, and errors. It allows for appropriate feature selection to then be used in machine learning and can help test hypotheses (Patil, 2018).</p>
+							<p>This topic was particularly useful for the first assignment as this was a large part in ensuring an accurate model was possible for the Airbnb dataset. I replaced null values and normalised the data and produced charts to analyse the data to see if there were any patterns.</p>
+							
+							<h3>References</h2>
+							<p>
+								<br>Patil, P. (2018) What is Exploratory Data Analysis?, Medium. Available at: https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15 (Accessed: 16 August 2023).</br>
+
+							</p>
+							<h2>Task - EDA</h2>
+							<p>Please find the Jupyter Notebook used for this task to see code and charts referred in the below text: <li style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit%202%20-%20EDA%20task.ipynb">EDA Jupyter Notebook.</a> </li></p>
+							<p>In this task, I utilised several libraries such as numpy, pandas, seaborn, and matplotlib to assist in undertaking exploratory data analysis on the auto.mpg dataset downloaded from Kaggle.</p>
+							<p>Initially, I looked at the head and tail of the data to get a brief understanding of the different columns and their values (Mahadevan, 2023). I also looked at the overall shape of the dataset to give a definitive answer to how many columns and rows there are (in this case 398 rows and 9 columns).</p>
+							<p>An important step in EDA is to check for any errors or anomalies in the data (Chelliah, 2021). One step to check this is to look for null values. Looking at isnull().any() for the dataset, there appear to be no null values. However, when looking at the data types, horsepower is seen as type object. When looking at the values for horsepower, we can see that these are clearly numerical and should be an integer or float.</p>
+							<p>Instead of a null value, there is a ‘?’. So, the next step was to change this to a null value, change it to float type and then replace the null value with the median value for the column. There are now no null values in the dataset and all data types are correct.</p>
+							<p>Next, the scipy library is imported to look at the skew and kurtosis of the dataset.</p>
+							<p>Skewness for columns such as ‘horsepower ‘is greater than 1 meaning that the data is highly skewed (Dan, 2020). Other columns are slightly skewed with some being fairly symmetrical. This level of skewness is generally acceptable.</p>
+							<p>The kurtosis measure if the distribution is too peaked. Positive values mean that the distribution peaked more than normal, and a negative kurtosis indicates a flatter shape. Values closer to 0 indicate a dataset that is close to normal distribution. Generally, kurtosis values of +2 and above or -2 and above indicate that either the datasets distribution is too peaked or too flat (Hair et al, 2022). However, in the auto.mpg dataset, this is not the case as values fall within -1.5 to 0.8.</p>
+							<p>In the final parts of the EDA, I looked at the correlation between variables. We can see that there are some instances of high correlation, the highest being between weight and displacement with a value of 0.8.</p>
+							<p>I decided to explore this correlation further by plotting a scatter graph of the two variables and we can see that although there are outliers, the two variables are correlated.</p>
+							<p>There is certainly more that can be done and achieved in an EDA, but this served as a good refresher and served as a good baseline for the EDA performed in the assessment in Unit 6.</p>
+							<h3>References</h3>
+							<p>
+								<br>Chelliah, I. (2021) Data cleaning - how to handle missing values in pandas, Medium. Available at: https://towardsdatascience.com/data-cleaning-how-to-handle-missing-values-in-pandas-cc8570c446ec (Accessed: 16 August 2023).</br>
+								<br>Dan, A. (2020) Kurtosis() & skew() function in pandas, Medium. Available at: https://medium.com/@atanudan/kurtosis-skew-function-in-pandas-aa63d72e20de (Accessed: 16 August 2023).</br>
+								<br>Hair, J.F. et al. (2022) A primer on partial least squares structural equation modeling (PLS-SEM). Los Angeles i 5 pozostałych: SAGE.</br>
+								<br>Mahadevan, M. (2023) Step-by-step exploratory data analysis (EDA) using Python, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analysis-eda-using-python/ (Accessed: 16 August 2023).</br>
+
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 3" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 3 - Correlation and Regression</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This is the first unit in the module that started to put theory into practice. In this case, it was looking at the correlation between variables as well as regression.</p>
+							<p>I found it useful to learn the differences between correlation and regression and what is best to use in any given situation. More detail on this can be found in the task below.</p>
+							<p>Learning more about regression improved my skills and enabled me to create a regression model which was used in the assessment in Unit 6. It was a lot of information to understand but, with time and practice I was able to present working models based on regression.</p>
+							<h2>Task – Correlation and Regression</h2>
+							<p>To view the charts that are discussed below, please view my jupyter notebook here:<li style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit03%20Ex1%20covariance_pearson_correlation(1).ipynb">Correlation Jupyter Notebook</a></li></p>
+							<p>In this task I looked at the supplied jupyter notebook and changed the default values to:</p>
+							<p style="margin-left: 40px">&bull; data1 = 1 * randn(1000) + 100</p>
+							<p style="margin-left: 40px">&bull; data2 = data1 + (10 * randn(1000) + 7)</p>
+							<p>It can be observed that any changes to the data points can either negatively or positively affect the correlation. In this first iteration, there is essentially no correlation between data1 and data2. This can be further observed by a Pearsons correlation of 0.116.</p>
+							<p>In the second iteration, the correlation increases from first iteration, but is still less than the default values; the second iteration has a Pearson correlation of 0.698 and the default has a Pearsons correlation of 0.888.</p>
+							<p>Pearson correlation, which is demonstrated in the charts, is highly sensitive to outliers. An outlier has the capability to highly impact the outcome of the Pearsons correlation value (Magiya, 2022). Statistical methods such as using standard deviation can help alleviate the bias that may be caused by outliers (Dhadse, 2021). Alternative tests such as Spearman’s and Kendall’s are less sensitive to outliers and may be used instead if removing outliers is not an option (Zinda, 2023).</p>
+							<p>Correlation, then, is a useful technique for investigating the relationship between variables.</p>
+							<p>“Correlation quantifies the strength of the linear relationship between a pair of variables, whereas regression expresses the relationship in the form of an equation.” - Bewick et al., 2003</p>
+							<p>Thus, regression measures how two variables affect each other, and correlation measures the relationship. Regression also enables to ability to predict outcomes (Calvello, 2023).</p>
+							
+							
+							<h3>References</h3>
+							<p>
+								<br>Bewick, V., Cheek, L. and Ball, J. (2003) Critical Care, 7(6), p. 451. doi:10.1186/cc2401</br>
+								<br>Calvello, M. (2023) Correlation vs. regression made easy: Which to use and why? - G2, g2.com. Available at: https://www.g2.com/articles/correlation-vs-regression (Accessed: 22 August 2023).</br>
+								<br>Dhadse, A. (2021) Removing outliers. understanding how and what behind the magic., Medium. Available at: https://medium.com/analytics-vidhya/removing-outliers-understanding-how-and-what-behind-the-magic-18a78ab480ff (Accessed: 22 August 2023).</br>
+								<br>Magiya, J. (2022) Pearson coefficient of correlation explained., Medium. Available at: https://towardsdatascience.com/pearson-coefficient-of-correlation-explained-369991d93404 (Accessed: 22 August 2023).</br>
+								<br>Zinda, Z. (2023) Data Science Stats Review: Pearson’s, Kendall’s, and spearman’s correlation for feature selection, phData. Available at: https://www.phdata.io/blog/data-science-stats-review/ (Accessed: 22 August 2023).</br>
+							</p>
+							<h2>Task – Collaborative Discussion Summary Post – The 4th Industrial Revolution</h2>
+							<p>With the increased adoption of technology and rapid increases in the amount of data available, there is a big dependency that has developed in conjunction (Grissinger, 2019). With bigger reliance on big data and technical systems, any errors or failures can cause major issues (Kiess, 2013).</p>
+							<p>It can be as simple as failing to be aware of system limitations such as the instance of the UK government being reliant on old file formats to store critical public health data (Vincent, 2020). This failure could have caused increased spread of the coronavirus and subsequently lead to more deaths during the pandemic (Kelion, 2020).</p>
+							<p>Another example of reliance, as noted by my peers, is the Kowloon incident where a signal failure results in a 4 hour delay. Officials were unaware of the incident (Outrage at rush-hour rail chaos, 2004).</p>
+							<p>This first incident emphasizes the need to ensure that legacy systems are updated (Pratt, 2023). This is especially true when the data is critical to public health.</p>
+							<p>The second incident emphasizes the need to ensure that there is human oversight so that when there is a technological failure, human intervention can fix and alleviate the issue (Scanlon, 2022).</p>
+							<p>In both cases, a large class of people were affected by these technological failings. Thus, humans must remain diligent and ensure they both understand the technology and its limitations as well as monitor its performance.</p>
+							<h3>References</h3>
+							<p>
+								<br>Grissinger, M. (2019) Understanding human over-reliance on technology, P & T : a peer-reviewed journal for formulary management. Available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6534180/ (Accessed: 22 August 2023).</br>
+								<br>Kelion, L. (2020) Excel: Why using Microsoft’s tool caused covid-19 results to be lost, BBC News. Available at: https://www.bbc.co.uk/news/technology-54423988 (Accessed: 10 August 2023).</br>
+								<br>Kiess, C. (2013) Errors and adverse consequences as a result of information technology ..., ScholarWorks. Available at: https://scholarworks.iupui.edu/bitstream/handle/1805/3750/Kiess_MasterThesis_Final.pdf (Accessed: 22 August 2023).</br>
+								<br>Pratt, M.K. (2023) Replacing vs. maintaining legacy systems: TechTarget, CIO. Available at: https://www.techtarget.com/searchcio/feature/Replacing-vs-maintaining-legacy-systems (Accessed: 22 August 2023).</br>
+								<br>Scanlon, L. (2022) What meaningful human oversight of AI should look like, Pinsent Masons. Available at: https://www.pinsentmasons.com/out-law/analysis/what-meaningful-human-oversight-of-ai-should-look-like (Accessed: 22 August 2023).</br>
+								<br>Vincent, J. (2020) Excel spreadsheet error blamed for UK’s 16,000 missing coronavirus cases, The Verge. Available at: https://www.theverge.com/2020/10/5/21502141/uk-missing-coronavirus-cases-excel-spreadsheet-error (Accessed: 10 August 2023).</br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 4" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 4 - Linear Regression with Scikit-Learn</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This unit helped me build upon my knowledge of linear regression from the previous units and introduced me to the Scikit-Learn library in python. This enabled me to easily create my own linear regression models. </p>
+							<p>However, in this unit, I struggled with this task and sought the help from classmates and conducted research to help find answers. In the end, I managed to come up with a working model for correlation and regression for the GDP and Population datasets. I utilised my skills gained from the EDA unit to help with the initial data preprocessing but needed help on combining the data as this was not something I had previous experience in.</p>
+							<h2>Task – Correlation and Regression</h2>
+							<p>Please see the Jupyter Notebook for the task here: <li style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Unit%204%20-%20Task.ipynb">GDP and Population Jupyter Notebook</a></li></p>
+							<p>In this task, we were given two datasets. The first dataset contained data for the GDP of each country and the second dataset contained data for the population of each country. We were tasked to combine the datasets to create a correlation graph that showed the relationship between the mean population and mean GDP of all the countries from 2001 to 2020.</p>
+							<p>The data firstly had to be pre-processed so that the there were no null values by replacing them with the median of any given column. Then, the data was limited to 2001 onwards and converted to numeric. After this, the mean for both datasets were calculated and put into a single data frame.</p>
+							<p>When showing this in a scatter plot, we can see that correlation is sparse. A Pearsons correlation coefficient of 0.031 confirms this. There are a quite a few outliers which can also affect the coefficient score.</p>
+							<p>This data was then put into a linear regression model. Firstly, the data was reshaped into one column and then split into train and test datasets with a test size of 25%.</p>
+							<p>After training, we can see that the R2 score is 0.0019, generally meaning that 0.19% of the variance of the dependent variable is explained by the independent variable. That is to say that this is not a good model for predicting GDP from population or population from GDP. </p>
+						
+						</div>
+					</section>
+					</section>
+						<section id="Unit 5" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 5 - Clustering</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This unit focused on clustering. Clustering is a method of partitioning data into groups (clusters). These are defined as data points that have more similarity that other data points. It’s predominately used for customer segmentation in businesses (Kaushik, 2023).</p>
+							<p>This was my first experience with clustering but it’s applications and uses made sense to me from a business perspective, especially when envisioning customer segmentation. With this knowledge, I was more comfortable going into future units because I had a good base understanding in terms of how the measurements of distance worked as well as how to evaluate whether clustering has worked well or not (Manimaran, 2021).</p>
+							<h3>References</h3>
+							<p>
+								<br>Kaushik, S. (2023) Clustering: Introduction, different methods, and applications (updated 2023), Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/ (Accessed: 05 September 2023).</br>
+								<br>Manimaran (2021) Clustering evaluation strategies, Medium. Available at: https://towardsdatascience.com/clustering-evaluation-strategies-98a4006fcfc (Accessed: 07 September 2023).</br>
+							</p>
+							<h2>Task – Jaccard Coefficient</h2>
+							<p>For this task, we were asked to look at Jaccard Coefficient Calculations also known as Jaccard similarity. This is used to compute the similarity between objects.</p>
+							<p>The formula is thus: JC=Ni/(Na+Nb−Ni)</p>
+							<p style="margin-left: 40px">&bull; Ni is the intersecting elements (how many elements are shared between the sets</p>
+							<p style="margin-left: 40px">&bull; Na is the number of elements in set A.</p>
+							<p style="margin-left: 40px">&bull; Nb is the number of elements in set B.</p>
+							<p>In this scenario, elements will be instances of Y and P in the various columns.</p>
+							<p>Jack and Mary:</p>
+							<p style="margin-left: 40px">&bull; Jack – Fever, Test-1 = 2 elements</p>
+							<p style="margin-left: 40px">&bull; Mary – Fever, Test-1, Test-3 = 3 elements</p>
+							<p style="margin-left: 40px">&bull; Intersecting Elements = 2</p>
+							<p style="margin-left: 40px">&bull; JC = 2/ (2+3−2) = 0.66</p>
+							<p>Jack and Jim:</p>
+							<p style="margin-left: 40px">&bull; Jack – Fever, Test-1 = 2 elements</p>
+							<p style="margin-left: 40px">&bull; Jim – Fever, Cough = 2 elements</p>
+							<p style="margin-left: 40px">&bull; Intersecting Elements = 1</p>
+							<p style="margin-left: 40px">&bull; JC = 1/ (2+2-1) = 0.33</p>
+							<p>Jim and Mary</p>
+							<p style="margin-left: 40px">&bull; Jim – Fever, Cough = 2 elements</p>
+							<p style="margin-left: 40px">&bull; Mary – Fever, Test-1, Test-3 = 3 elements</p>
+							<p style="margin-left: 40px">&bull; Intersecting Elements = 1</p>
+							<p style="margin-left: 40px">&bull; JC = 1/ (2+3-1) = 0.25</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 6" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 6 - Clustering with Python</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This reflection will focus on the group project as in this Unit, the first group project was due. This was a difficult process as the team was not working well. Each person did their own EDA and subsequently created their own models. However, too much focus was put on k-means clustering which didn’t produce successful results on this dataset. It was my idea to use regression models to predict price. </p>
+							<p>We didn’t settle on a clear question until after the EDA. After this analysis, we produced the question: “what features have the biggest impact on price?”</p>
+							<p>In my version, which produced the final model, the model was based of regression methods and iterated through different models such as linear regression, decision tree, random forest, and XGBoost.</p>
+							<p>It was in this process that I learnt about hyperparameter tuning in order to prevent overfitting, as well as increasing accuracy (Olaoye, 2022). In the end, I produced a model that reached 64% accuracy, which, with more relevant variables included in the data, could be even higher (T, 2019).</p>
+							<p>This was a difficult task to complete because I had essentially done all the code and the final report on my own with little outside help from my teammates.</p>
+							<p>It was beneficial that I am self-proficient and had a good understanding of what needed to be done to complete this task. Although, I do believe that with better collaboration between the group, we would have gotten a better grade.</p>
+							<p>Associated artefacts for the Unit 6 Group Task can be found here:
+								<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/EDA%20%26%20ML.ipynb">Group Project Jupyter Notebook</a></li>
+								<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/EDA%20ML(3).docx">Group Project Report</a></li>
+							</p>
+							
+							<h3>References</h3>
+							<p>
+								<br>Olaoye, A. (2022) 4 effective ways to prevent overfitting and why they work, Medium. Available at: https://towardsdatascience.com/4-effective-ways-to-prevent-overfitting-and-why-they-work-f6e3b98aefda (Accessed: 13 September 2023). </br>
+								<br>T, S.B. (2019) Having more features leads to a better prediction, yes/no?, Medium. Available at: https://medium.datadriveninvestor.com/having-more-features-leads-to-a-better-prediction-yes-no-f82cc6183b37 (Accessed: 13 September 2023).</br>
+
+							</p>
+							<h2>Task – K-means Clustering</h2>
+							<h3>Task A: Iris</h3>
+							<p>Link to Jupyter Notebook for Task A: <li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Task%20A%20-%20Iris.ipynb">Task A Jupyter Notebook</a></li></p>
+							<p>Firstly, k-mean clustering was performed on the iris dataset.</p>
+							<p>To begin, the distributions between each variable was looked at. We can already see that the different species are already grouped in some ways when it comes to relationships between variables.</p>
+							<p>Next, k-means cluster was performed for 1-10 clusters. Using the elbow curve, we can see the optimal number of clusters is 3 – which matches the number of species in the dataset.</p>
+							<p>We can see that the clusters are mostly distinct but with some overlap.</p>
+							<h3>Task B: Wine</h3>
+							<p>Link to Jupyter Notebook for Task B: <li style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Task%20B%20-%20Wine.ipynb">Task B Jupyter Notebook</a></li></p>
+							<p>The second task was to look at the wine data set. Similar to the Iris dataset, there are 3 unique values for wine. The process for k-means clustering was comparable to the Iris dataset. When looking at the elbow curve, again, the optimal number of clusters is 3.</p>
+							<p>However, for this dataset I used PCA (principal component analysis) to help plot the data. This reduces the dimensionality of the data set. The idea is to reduce the number of variables whilst preserving as much information as possible (Jaadi, 2023).</p>
+							<p>In the plot we can see three distinct clusters for wine and their respective centroids. Following this is a heat map of the variables.</p>
+							<h3>Task C: Weather</h3>
+							<p>Link to Jupyter Notebook for Task C: <li style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/Task%20C%20-%20Weather.ipynb">Task C Jupyter Notebook</a></li></p>
+							<p>For the final task, I used the same methods as in the other two datasets and plotted an elbow curve, which again has optimal number of clusters of 3. However, after looping through we can see the centroid are very close together for each group and there is an increasing overlap/overfit as the clusters increase.</p>
+							<h3>References</h3>
+							<p>
+								<br>Jaadi, Z. (2023) A step-by-step explanation of principal component analysis (PCA), Built In. Available at: https://builtin.com/data-science/step-step-explanation-principal-component-analysis (Accessed: 14 September 2023).</br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 7" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 7 - Introduction to Artificial Neural Networks (ANNs)</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This was my first experience of neural networks. This introduction to ANN helped immensely when creating an initial model for the unit 11 project to create a neural network using the CIFAR-10 dataset. It provided me a fundamental understanding and baseline to work from.</p>
+							<p>The fact that artificial neural networks are based on the human brain in terms of structure is incredibly interesting to me and helped me develop a better understanding by examining this analogy (Walczak & Cerpa, 2003).</p>
+							<h3>References</h3>
+							<p>
+								<br>Walczak, S. and Cerpa, N. (2003) ‘Artificial Neural Networks’, Encyclopedia of Physical Science and Technology, pp. 631–645. doi:10.1016/b0-12-227410-5/00837-1.</br>
+							</p>
+							<h2>Task - Perceptron Activities</h2>
+							<p>In this task I gained a deeper understanding of Perceptron. This is a neural network link containing computations that track features and uses AI in the input data. In other words, it’s an ANN.</p>
+							<p>It is an algorithm for supervised learning of binary classifiers. It enables neurons to learn process elements in the training set one at a time (Banoula, 2023).</p>
+							<p>Below are observations based on the Jupyter Notebooks provided in the seminar materials:</p>
+							<p style="margin-left: 40px">&bull; In exercise 1, by changing the inputs and weights, I observed different results. For example, having positive weight i.e., 04, 02 resulted in the sum function being greater than or equal to 1. This means that the neuron in this case is activated.</p>
+							<p style="margin-left: 40px">&bull; In exercise 2, the step activation function is used again. This time the small dataset it then trained to then be able to classify new instances of data. This helped me understand the basics of how an ANN works and how it can be used to classify new data after training the model on a very small dataset</p>
+							<p style="margin-left: 40px">&bull; In exercise 3, the sigmoid function is used to create a multi-layer Perceptron. This time, epochs are introduced. The number of epochs defines the number of times the algorithm will work through the training dataset. In this exercise, 100 epochs are used and then up to 1,000,000. This shows a complete neural network and demonstrates how it performs.</p>
+							<h3>References</h3>
+							<p>
+								<br>Banoula, M. (2023) What is Perceptron? A beginners guide for 2023: Simplilearn, Simplilearn.com. Available at: https://www.simplilearn.com/tutorials/deep-learning-tutorial/perceptron (Accessed: 21 September 2023).</br>
+							</p>
+							
+						</div>
+					</section>
+					</section>
+						<section id="Unit 8" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 8 - Training an Artificial Neural Network</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>In this unit, there were 3 total tasks. Completing all of them was a challenge but I managed to balance my workload which in turn meant that I was able to produce the work required.</p>
+							<p>It was tough because there was a wide range of topic from the training of neural networks in terms of how mistakes are rectified via feedback loops or backpropagation algorithm (Loft, 2023) to the legal and ethical implications of ANN applications.</p>
+							<p>I gained a lot of knowledge in terms of legality and ethical views on neural networks and AI as well as gaining further knowledge on implementation of an ANN.</p>
+							<h3>References</h3>		
+							<p>
+								<br>Loft, G. (2023) How AI uses feedback loops to learn from its mistakes, Ultimate. Available at: https://www.ultimate.ai/blog/ai-automation/what-is-a-feedback-loop (Accessed: 01 October 2023).</br>
+							</p>
+							<h2>Task - Gradeient Cost Function</h2>
+							<p>In this task, we were asked to observe changes in cost in the Jupyter Notebook provided in the seminar materials.</p>
+							<p>Below I have collated information on how the gradient cost function works and the impact of the learning rate and iterations:</p>
+							<p>A cost function is the measure of error in a prediction by an algorithm by indicating the difference between predicted values and actual values for a dataset (Banoula, 2023). A technique used to minimise the cost function is this gradient descent method (Team, 2022). The smaller the cost function, the more accurate the results of the predictive model.</p>
+							<p>The learning rate in gradient descent, and in this demonstration of gradient cost function, controls the rate at which the model adapts to the problem (Brownlee, 2020). A lower learning rate will require more iterations as there are smaller changes after each iteration. Larger learning rates will have the opposite effect and require fewer iterations.</p>
+							<p>If the learning rate is too large, however, the model can converge too rapidly and reach a suboptimal solution. If it’s too small, the process may take a very long time (Brownlee, 2020).</p>
+							<p>Thus, it is important that the learning rate must be carefully selected for optimal outcomes.</p>
+							<h3>References</h3>
+							<p>
+								<br>Banoula, M. (2023) What is cost function in machine learning [updated]: Simplilearn, Simplilearn.com. Available at: https://www.simplilearn.com/tutorials/machine-learning-tutorial/cost-function-in-machine-learning (Accessed: 05 October 2023).</br>
+								<br>Brownlee, J. (2020) Understand the impact of learning rate on neural network performance, MachineLearningMastery.com. Available at: https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/ (Accessed: 03 October 2023).</br>
+								<br>Team, G.L. (2022) Understanding learning rate in machine learning, Great Learning Blog: Free Resources what Matters to shape your Career! Available at: https://www.mygreatlearning.com/blog/understanding-learning-rate-in-machine-learning/ (Accessed: 04 October 2023).</br>
+							</p>
+							<h2>Task - Emerging Research in ANN</h2>
+							<h3>Part 1</h3>
+							<p>For this task, we were asked to read an article by Mach (2021) and pick an application of neural networks in one industry and not the impact it has had in said industry.</p>
+							<p>For healthcare, AI plays an influential role. Because of the importance of healthcare to the public, it is vital that any use of ANN or other AI will produce highly accurate results.</p>
+							<p>Currently, there are clinical applications for analysis of electronic health records, medical image processing as well as workflow optimisation. Another example of its use is in drug discovery where machine learning and neural networks are used to help find effective medicines faster (Shahid et al., 2019).</p>
+							<p>There are many applications for neural networks in healthcare, but there are difficulties such as having a wealth of data – this can be sometimes difficult to interpret (Ferguson, n.d.). Additionally, because of the need for high accuracy mentioned earlier, lots of research needs to be undertaken (Naik et al., 2022). Currently, medical diagnostics using AI is a heavily researched area and is currently being developed. This would have many benefits to the healthcare industry, but patients will need protection in case of a defective diagnosis (Mishra et al., 2023).</p>
+							<h3>Part 2</h3>
+							<p>We were also tasked to review how AI impacts insurance.</p>
+							<p>There are many benefits to AI as stated in the article, like better pricing, fairer outcomes, and greater protection against harm (Snapshot paper - ai and personal insurance, 2019). However, there are ethical implications. If the AI is trained using biased data, then it will show that bias in its outputs. For example, if the AI was trained on only data pertaining to a specific class of people such as men, then results may show bias towards that group (Contributors, 2023).</p>
+							<p>Additionally, as a customer, there is a clear lack of transparency as to how a decision is reached, especially when AI algorithms can be complex. This can also extend to digital marketing, where AI has analysed search behaviour. This can potentially coerce customer into buying unnecessary insurance and can exclude vulnerable groups (Mullins et al., 2021).</p>
+							<h3>References</h3>
+							<p>
+								<br>Contributors, F. (2023) The ethics of AI in insurance: Balancing efficiency and fairness, Financial and Business News | Finance Magnates. Available at: https://www.financemagnates.com/fintech/education-centre/the-ethics-of-ai-in-insurance-balancing-efficiency-and-fairness/ (Accessed: 06 October 2023).</br>
+								<br>Ferguson, J. (no date) Neural networks in healthcare, Royal Jay. Available at: https://royaljay.com/healthcare/neural-networks-in-healthcare/ (Accessed: 06 October 2023).</br>
+								<br>Mishra, S. et al. (2023) Artificial Neural Networks for diagnosis of diseases, Hindawi. Available at: https://www.hindawi.com/journals/bmri/si/968237/ (Accessed: 06 October 2023).</br>
+								<br>Mullins, M., Holland, C.P. and Cunneen, M. (2021) ‘Creating ethics guidelines for artificial intelligence and big data analytics customers: The case of the Consumer European Insurance Market’, Patterns, 2(10), p. 100362. doi:10.1016/j.patter.2021.100362.</br>
+								<br>Naik, N. et al. (2022) ‘Legal and ethical consideration in artificial intelligence in Healthcare: Who takes responsibility?’, Frontiers in Surgery, 9. doi:10.3389/fsurg.2022.862322.</br>
+								<br>Pruciak, M. (2021) 10 business applications of neural network (with examples!), Agile Software Development Agency in Europe. Available at: https://www.ideamotive.co/blog/business-applications-of-neural-network (Accessed: 05 October 2023).</br>
+								<br>Shahid, N., Rappon, T. and Berta, W. (2019) ‘Applications of artificial neural networks in health care organizational decision-making: A scoping review’, PLOS ONE, 14(2). doi:10.1371/journal.pone.0212356.</br>
+								<br>Snapshot paper - ai and personal insurance (2019) GOV.UK. Available at: https://www.gov.uk/government/publications/cdei-publishes-its-first-series-of-three-snapshot-papers-ethical-issues-in-ai/snapshot-paper-ai-and-personal-insurance (Accessed: 06 October 2023).</br>
+							</p>
+							<h2>Task - Collaborative Discussion Initial Post – Legal and Ethical Views on ANN Applications</h2>
+							<p>The article produced by Hutson discusses AI (in particular GPT-3) in terms of language models – models that can generate text given a prompt (Hutson, 2021). People have been taking advantage of this, using the AI to produce news articles which are hard to distinguish from news stories created by humans. This AI is not just limited to writing, it can generate code in multiple programming languages, solve mathematical problems etc. (Hutson, 2021).</p>
+							<p>The advantages of this are many. In business applications, for example, this type of AI can be utilised to generate product descriptions and create FAQ pages (Cuofano, 2023). Use of AI increase efficiency by streamlining tedious tasks meaning that employees can better allocate their resources (Nielsen, 2023).</p>
+							<p>However, there is an issue with AI tools such as GPT-3. The model has learned from data generated by humans, meaning that it picks up the inherent ethical flaws that come with that data (Heaven, 2021). For example, GPT-3 has many biases. In particular, it is prejudiced when it comes to religion – “racism” is associated with Judaism and “terrorism” is associated with Islam (Zaarour, 2022).</p>
+							<p>Thus, when using such AI tools, it is paramount that the human element remains to oversee and scrutinise the work AI produces. AI is not replacing humans but is there to assist in tasks and increase productivity and efficiency (Oluwaniyi, 2023).</p>
+							<h3>References</h3>
+							<p>
+								<br>Cuofano, G. (2023) Commercial applications of GPT-3, FourWeekMBA. Available at: https://fourweekmba.com/gpt-3/ (Accessed: 05 October 2023).</br>
+								<br>Heaven, W.D. (2021) OpenAI’s New Language Generator GPT-3 is shockingly good-and completely mindless, MIT Technology Review. Available at: https://www.technologyreview.com/2020/07/20/1005454/openai-machine-learning-language-generator-gpt-3-nlp/ (Accessed: 07 October 2023).</br>
+								<br>Hutson, M. (2021) Robo-writers: The rise and risks of language-generating AI, Nature News. Available at: https://www.nature.com/articles/d41586-021-00530-0 (Accessed: 07 October 2023)</br>
+								<br>Nielsen, J. (2023) Ai improves employee productivity by 66%, Nielsen Norman Group. Available at: https://www.nngroup.com/articles/ai-tools-productivity-gains/ (Accessed: 08 October 2023).</br>
+								<br>Oluwaniyi, R. (2023) 7 reasons why artificial intelligence can’t replace humans at work, MUO. Available at: https://www.makeuseof.com/reasons-artificial-intelligence-cant-replace-humans/ (Accessed: 07 October 2023). </br>
+								<br>Zaarour, G. (2022) OpenAI’s GPT-3: The ethical landscape of a powerful tool, Medium. Available at: https://giozaarour.medium.com/openais-gpt-3-the-ethical-landscape-of-a-powerful-tool-9ff08c0c5dbb (Accessed: 08 October 2023).</br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 9" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 9 - Introduction to Convolutional Neural Networks (CNNs)</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This was my first introduction to convolutional neural networks. I learnt a lot from this unit that influenced the final team presentation in Unit 11. It was in this unit that I first used the Tensorflow library in python and learnt about convolutional layers, max pooling, filters and much more.</p>
+							<p>In total, it was a lot of information to process, but was necessary to be able to better understand the capabilities of neural networks when it comes to image recognition.</p>
+							<h2>Task - Wall Article</h2>
+							<p>The article by Wall (2019) focuses on facial recognition performed by AI and it’s real world uses and implications.</p>
+							<p>Particularly, police forces are using automated face recognition toe identify criminals and terrorists (Wall, 2019). Whilst this sounds good in theory, can we trust the AI to be good enough for use in high stakes situations?</p>
+							<p>In my opinion, such technology should never be put to practice due to inherent biases in data, especially when it comes to policing; there have been many studies that identify algorithms that are used by the police are racist. For example, in the US, you are twice as likely to be arrested if you are black than if you are white (Heaven, 2023). If this is the type of data that AI is trained upon, then it is likely to show an equivalent bias in it’s results. Further, a report has shown that police are using falsified data to train AI (Hao, 2020).</p>
+							<p>This shows that the logic used is faulty, if more black people are arrested, then black people are more likely to be identified as criminals by AI. If more police are dispatched to a neighbourhood, there will be more crime or arrests in that area (Reese, 2022).</p>
+							<p>Until institutions such as the police are fundamentally changed to remove their bias, then AI use in this area should be limited.</p>
+														
+							<h3>References</h3>
+							<p>
+								<br>Hao, K. (2020) Police across the US are training crime-predicting AIS on falsified data, MIT Technology Review. Available at: https://www.technologyreview.com/2019/02/13/137444/predictive-policing-algorithms-ai-crime-dirty-data/ (Accessed: 15 October 2023).</br>
+								<br>Heaven, W.D. (2023) Predictive policing algorithms are racist. they need to be dismantled., MIT Technology Review. Available at: https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/ (Accessed: 15 October 2023).</br>
+								<br>Reese, H. (2022) What happens when police use AI to predict and prevent crime?, Daily JSTOR. Available at: https://daily.jstor.org/what-happens-when-police-use-ai-to-predict-and-prevent-crime/ (Accessed: 15 October 2023).</br>
+								<br>Wall, M. (2019) Biased and wrong? Facial Recognition Tech in the dock, BBC News. Available at: https://www.bbc.co.uk/news/business-48842750 (Accessed: 14 October 2023).</br>
+							</p>
+							<h2>Task – CNN Model</h2>
+							<p>This was my first introduction to how a CNN model works in practice using the CIFAR-10 dataset. This proved useful going forward with the final group presentation as it used the same dataset.</p>
+							<p>In this task we were asked to examine the CNN model provided to us in a Jupyter Notebook provided in the seminar materials.</p>
+							<p>It can be observed that the model used two convolutional layers using the ReLU activation and a relatively low number of filters at 32. These were followed by a pooling layer. In architecture such as VGG, there are multiple convolutional layers that increase the number of filters each layer (Boesch, 2023).</p>
+							<p>From the initial model, we can see there a total of 255,610 parameters. We can see that the validation accuracy is 67% in the final epoch before the early stopping occurs due to the validation loss not decreasing after 2 epochs (as the patience was set to 2).</p>
+							<p>It is clear that this model could be improved upon with more convolutional layers as well as using regularisation techniques to improve accuracy and any underfitting or overfitting of the model (Brownlee, 2020).</p>
+							<h3>References</h3>
+							<p>
+								<br>Boesch, G. (2023) VGG very deep convolutional networks (vggnet) - what you need to know, viso.ai. Available at: https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/ (Accessed: 12 October 2023). </br>
+								<br>Brownlee, J. (2020) How to develop a CNN from scratch for CIFAR-10 photo classification, MachineLearningMastery.com. Available at: https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-cifar-10-photo-classification/ (Accessed: 12 October 2023).</br>
+
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 10" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 10 - CNN Interactive Learning</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>The summary post for the second collaborative discussion was produced in this unit. This enhanced and enriched my views on the ethical implications of the use of neural networks as well as the potential legal implications.</p>
+							<p>In the interactive task, I gained further knowledge and immersed myself in the world of CNNs. This proved useful for the presentation in Unit 11.</p>
+							<h2>Task – Collaborative Discussion Summary Post – Legal and Ethical Views on ANN Applications</h2>
+							<p>Evidently, the use of AI tools in business application is increasing the effectiveness and efficiency of employees as they can focus on other tasks that can be adequately completed by AI (Nielsen , 2023). This does not mean that humans are not necessary in the generative AI process, however (Tewari, 2023).</p>
+							<p>Additionally, there are negative aspects to consider when it comes to use of AI tools. For example, there are ethical issues around the data used to generate text. If there are biases and prejudice in the data the AI learned from, then that may be reproduced when prompted (Zaarour, 2022).. In conjunction, there are legal concerns around intellectual property (copyright) when it comes to the training data of AI tools such as GPT-3. With no accountability, there are questions about the ethical use and authorship of work produced using AI (Hern, 2023).</p>
+							<p>There are also overwhelming positives such as diminishing human error, especially when AI is used to automate repetitive tasks. It can be the first point of the customer experience when it comes to FAQs and help by utilisation of chatbots (Staff, 2023).</p>
+							<p>In summary, the use of AI, particularly in business applications, is not going away and will increasing exponentially as tools get more powerful. There are associated advantages and risks, but as long as there is human intervention available, the risks will be mitigated (Reynolds, 2023).</p>
+							<h3>References</h3>
+							<p>
+								<br>Hern, A. (2023) Fresh concerns raised over sources of training material for AI Systems, The Guardian. Available at: https://www.theguardian.com/technology/2023/apr/20/fresh-concerns-training-material-ai-systems-facist-pirated-malicious (Accessed: 17 October 2023).</br>
+								<br>Marketing API (no date) Meta Marketing API - Documentation - Meta for Developers. Available at: https://developers.facebook.com/docs/marketing-apis/ (Accessed: April 12, 2023). </br>
+								<br>Reynolds, B. (2023) Council post: Remember the human element of the emerging AI World, Forbes. Available at: https://www.forbes.com/sites/forbeshumanresourcescouncil/2023/08/30/remember-the-human-element-of-the-emerging-ai-world/ (Accessed: 17 October 2023). </br>
+								<br>Staff, S. (2023) AI for Business: 4 popular business applications of artificial intelligence, Shopify. Available at: https://www.shopify.com/blog/ai-for-business (Accessed: 17 October 2023). </br>
+								<br>Tewari, H. (2023) Is ai taking away the ‘human’ element from human resources?, Fast Company Middle East | The future of tech, business and innovation. Available at: https://fastcompanyme.com/work-life/is-ai-taking-away-the-human-element-from-human-resources/ (Accessed: 17 October 2023). </br>
+								<br>Zaarour, G. (2022) OpenAI’s GPT-3: The ethical landscape of a powerful tool, Medium. Available at: https://giozaarour.medium.com/openais-gpt-3-the-ethical-landscape-of-a-powerful-tool-9ff08c0c5dbb (Accessed: 17 October 2023).  </br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 11" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 11 - Model Selection and Evaluation</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>This was a vital unit to help me further understand the importance of model evaluation using R2 scores and ROC curves. With this information, it is easier to determine the prediction accuracy and the overall fit of the model, whilst looking out for factors such as underfitting and overfitting.</p>
+							<p>Additionally, the group presentation was due in this unit. Again, I struggled with the task as I was largely left on my own to do the project as the other team members were either busy or unable to contribute for other reasons.</p>
+							<p>I, however, embraced the challenge, and managed to produce an adequate CNN model after creating a baseline ANN model to predict images from the CIFAR-10 dataset. This utilised all my knowledge gathered so far throughout the module and pushed me to learn more about tuning CNN models for better accuracy.</p>
+							<p>
+								Artefacts for the presentation can be found here:
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/ANN%20and%20CNN.ipynb">Presentation Jupyter Notebook</a></li>
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/CNN%20script.docx">Presentation Script</a></li>
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/2cc397c1-9f18-47cd-9b76-152b7985cecd(1).mp4">Presentation Video</a></li>
+									<li  style="margin-left: 40px"><a href="https://github.com/rhowjo/rhowjo.github.io/blob/main/assets/CIFAR-10%20Neural%20Networks.pptx">Presentation Powerpoint</a></li>
+									
+							</p>
+							<h2>Task – Model Performance Measurement</h2>
+							<p>In this task, I observed the changes of parameters affecting the AUC and R2 error. The Jupyter Notebook was provided in the seminar materials.</p>
+							<p>The AUC (area under the curve or ROC curve) measures the are underneath an ROC curve. The ROC is a probability curve, and the AUC measures the degree of separability (Bhandari, 2023). Essentially, it measures how capable the model is at distinguish between different classes (Narkhede, 2021). The higher the AUC, the better the predictive model is.</p>
+							<p>In the notebook, changing the number of features has varying impact on the AUC, and thus the predictive capabilities of the model in terms of accuracy.</p>
+							<p>The R2 score is the proportion of variance in the dependent variable that is predictable from the independent variable. It can also be defined as the total variance explained by the model divided by the total variance (Kumar, 2023). High values indicate that there is perfect correlation between variables and low values indicate low correlation.</p>
+							<p>A high R2 score generally indicates that the model is a good fit, although other considerations such as overfitting and underfitting should be taken into account.</p>
+							<h3>References</h3>
+							<p>
+								<br>Bhandari, A. (2023) Guide to AUC ROC curve in machine learning : What is specificity?, Analytics Vidhya. Available at: https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/ (Accessed: 20 October 2023).</br>
+								<br>Kumar, A. (2023) Mean squared error or r-squared - which one to use?, Analytics Yogi. Available at: https://vitalflux.com/mean-square-error-r-squared-which-one-to-use/ (Accessed: 20 October 2023).</br>
+								<br>Narkhede, S. (2021) Understanding AUC - roc curve, Medium. Available at: https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5 (Accessed: 20 October 2023).</br>
+							</p>
+						</div>
+					</section>
+					</section>
+						<section id="Unit 12" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unit 12 - Industry 4.0 and Machine Learning</h1>
+							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+							<h2>Reflection</h2>
+							<p>As this was the last unit, I found it appropriate to summarise the learnings from the entire module.</p>
+							<p>This module introduced me to neural networks (both ANN and CNN) and put a large emphasis on the ethical and legal nature of them. It was interesting to research and discuss the possible ethical dilemmas when it comes to neural networks and AI, especially when it comes to law enforcement. It helped emphasise the importance of understanding the underlying data of the model and identify potential bias and prejudice since this will have a huge impact on the outcome of the model.</p>
+							<p>I can now confidently build a neural network from scratch with the knowledge I have gained from this module, as well as use crucial techniques in exploratory data analysis and other machine learning models such as regression.</p>
+							<p>Particularly, the assessment in Unit 6 enabled me to find new machine learning models such as XGBoost that I didn’t previously have knowledge of. This ended up producing some of the best results in terms of accuracy for that project.</p>
+							<p>Other things I will take away from this module is the importance of tuning models and being aware of overfitting and underfitting and how to avoid them.</p>
+							<p>Overall, this was an enjoyable and interesting module to undertake, and I have come away more knowledgeable and confident in my abilities in machine learning.</p>
+													
+						</div>
+					</section>
+					
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Rhiannon. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
